@@ -2,39 +2,51 @@
 
 :root {
   --font-size: 16px;
-  --font-serif: 'Cormorant Garamond', serif;
-  --font-sans: 'Inter', sans-serif;
+  --font-serif: 'Playfair Display', serif;
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
 
-  /* Luxury Dark Theme Colors */
-  --background: #0a0a0a;
-  --foreground: #c5c5c7;
-  --card: rgba(20, 20, 20, 0.6);
-  --card-foreground: #c5c5c7;
-  --popover: rgba(18, 18, 18, 0.95);
-  --popover-foreground: #c5c5c7;
-  --primary: #1a1a1a;
-  --primary-foreground: #c5c5c7;
-  --secondary: #2a2a2a;
-  --secondary-foreground: #c5c5c7;
-  --muted: #1f1f1f;
-  --muted-foreground: #8a8a8d;
-  --accent: #3a3a3a;
-  --accent-foreground: #c5c5c7;
+  /* Ultra-Premium Dark Theme - Cold Titanium Palette */
+  --background: #0a0a0b;
+  --foreground: #b8b8ba;
+  --card: rgba(15, 15, 16, 0.7);
+  --card-foreground: #b8b8ba;
+  --popover: rgba(12, 12, 13, 0.98);
+  --popover-foreground: #b8b8ba;
+  --primary: #141415;
+  --primary-foreground: #b8b8ba;
+  --secondary: #1a1a1b;
+  --secondary-foreground: #b8b8ba;
+  --muted: #171718;
+  --muted-foreground: #6e6e70;
+  --accent: #242425;
+  --accent-foreground: #d1d1d3;
   --destructive: #d4183d;
   --destructive-foreground: #ffffff;
-  --border: rgba(197, 197, 199, 0.1);
+  --border: rgba(184, 184, 186, 0.08);
   --input: transparent;
-  --input-background: rgba(30, 30, 30, 0.5);
-  --switch-background: #4a4a4a;
+  --input-background: rgba(20, 20, 21, 0.6);
+  --switch-background: #3a3a3b;
   --font-weight-medium: 500;
   --font-weight-normal: 400;
-  --ring: rgba(197, 197, 199, 0.3);
+  --ring: rgba(184, 184, 186, 0.25);
 
-  /* Titanium & Platinum Accents */
-  --titanium: #c5c5c7;
-  --platinum: #e5e5ea;
-  --graphite: #1c1c1e;
-  --dark-chocolate: #2c1810;
+  /* Natural Titanium Color Scheme - iPhone 16 Pro Inspired */
+  --natural-titanium: #b8b8ba;
+  --brushed-titanium: #9e9ea0;
+  --dark-titanium: #6e6e70;
+  --titanium-light: #d1d1d3;
+  --titanium-ultra-light: #e8e8ea;
+
+  /* Chrome & Platinum Accents */
+  --satin-chrome: #c4c4c6;
+  --platinum-silver: #d8d8da;
+  --soft-chrome: #acacae;
+
+  /* Dark Bases */
+  --matte-black: #0a0a0b;
+  --graphite: #14141;
+  --espresso-black: #0f0f10;
+  --deep-charcoal: #1a1a1b;
 
   --chart-1: oklch(0.646 0.222 41.116);
   --chart-2: oklch(0.6 0.118 184.704);
@@ -216,5 +228,15 @@
 
   ::-webkit-scrollbar-thumb:hover {
     background: rgba(197, 197, 199, 0.5);
+  }
+
+  /* Custom animations */
+  @keyframes float {
+    0%, 100% {
+      transform: translate(0, 0) scale(1);
+    }
+    50% {
+      transform: translate(20px, -30px) scale(1.1);
+    }
   }
 }

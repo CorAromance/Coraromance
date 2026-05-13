@@ -1,10 +1,11 @@
-# CorAromance
 
-Премиальный сайт бутика нишевой парфюмерии CorAromance.
+  # Premium Fragrance Store Website
 
-## Запуск проекта
+  This is a code bundle for Premium Fragrance Store Website. The original project is available at https://www.figma.com/design/vXgDa4GK6t3nA45KMYzpMt/Premium-Fragrance-Store-Website.
 
-Установка зависимостей:
+  ## Running the code
 
-```bash
-npm install
+  Run `npm i` to install the dependencies.
+
+  Run `npm run dev` to start the development server.
+  

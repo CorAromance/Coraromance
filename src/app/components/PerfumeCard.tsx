@@ -16,74 +16,119 @@ interface PerfumeCardProps {
 export function PerfumeCard({ name, brand, description, image, price, notes }: PerfumeCardProps) {
   return (
     <motion.div
-      whileHover={{ scale: 1.03, y: -8 }}
-      transition={{ duration: 0.4, ease: "easeOut" }}
-      className="group relative overflow-hidden rounded-3xl bg-gradient-to-br from-[#1a1a1a]/80 to-[#0a0a0a]/60 backdrop-blur-xl border border-white/10 shadow-2xl hover:shadow-[0_20px_60px_rgba(197,197,199,0.2)] h-full flex flex-col"
+      whileHover={{ y: -12 }}
+      transition={{ duration: 0.5, ease: [0.23, 1, 0.32, 1] }}
+      className="group relative overflow-hidden rounded-2xl backdrop-blur-2xl border h-full flex flex-col"
+      style={{
+        background: "linear-gradient(135deg, rgba(15, 15, 16, 0.8) 0%, rgba(10, 10, 11, 0.6) 100%)",
+        borderColor: "rgba(184, 184, 186, 0.08)",
+        boxShadow: "0 4px 24px rgba(0, 0, 0, 0.4)"
+      }}
     >
-      <div className="relative h-72 overflow-hidden">
+      <div className="relative h-80 overflow-hidden bg-gradient-to-b from-black/20 to-black/40">
         <img
           src={image}
           alt={`${brand} ${name}`}
-          className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+          className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/30 to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-t from-black/95 via-black/40 to-transparent" />
 
-        {/* Price Tag */}
-        <div className="absolute top-4 right-4 px-4 py-2 rounded-full backdrop-blur-xl border border-white/20" style={{ background: 'rgba(197, 197, 199, 0.15)' }}>
-          <p className="text-sm" style={{ color: 'var(--platinum)' }}>
+        {/* Price Badge - Titanium Glass */}
+        <div
+          className="absolute top-5 right-5 px-4 py-2 rounded-full backdrop-blur-xl border"
+          style={{
+            background: "rgba(184, 184, 186, 0.12)",
+            borderColor: "rgba(255, 255, 255, 0.15)",
+            boxShadow: "0 4px 16px rgba(0, 0, 0, 0.3), inset 0 1px 1px rgba(255, 255, 255, 0.1)"
+          }}
+        >
+          <p className="text-sm font-medium" style={{ color: "var(--titanium-light)" }}>
             {price}
           </p>
         </div>
       </div>
 
-      <div className="p-6 space-y-4 flex-1 flex flex-col">
-        <div>
-          <p className="text-xs tracking-[0.25em] uppercase mb-1" style={{ color: 'var(--titanium)', opacity: 0.7 }}>
+      <div className="p-7 space-y-4 flex-1 flex flex-col">
+        <div className="space-y-1">
+          <p
+            className="text-xs tracking-[0.2em] uppercase font-medium"
+            style={{ color: "var(--dark-titanium)" }}
+          >
             {brand}
           </p>
-          <h3 className="text-2xl mb-2" style={{ fontFamily: 'var(--font-serif)', color: 'var(--platinum)' }}>
+          <h3
+            className="text-2xl leading-tight"
+            style={{
+              fontFamily: "var(--font-serif)",
+              color: "var(--titanium-light)",
+              fontWeight: 500
+            }}
+          >
             {name}
           </h3>
         </div>
 
-        <p className="text-sm leading-relaxed flex-1" style={{ color: 'var(--titanium)', opacity: 0.85 }}>
+        <p
+          className="text-sm leading-relaxed flex-1"
+          style={{ color: "var(--natural-titanium)", opacity: 0.8 }}
+        >
           {description}
         </p>
 
-        {/* Notes Pyramid */}
-        <div className="space-y-2 pt-2 border-t border-white/5">
-          <div className="flex items-start gap-2">
-            <span className="text-xs uppercase tracking-wider min-w-[60px]" style={{ color: 'var(--titanium)', opacity: 0.5 }}>
-              Верх:
+        {/* Olfactory Pyramid */}
+        <div className="space-y-2.5 pt-4" style={{ borderTop: "1px solid rgba(184, 184, 186, 0.06)" }}>
+          <div className="flex items-start gap-3">
+            <span
+              className="text-[10px] uppercase tracking-[0.15em] font-medium min-w-[55px] pt-0.5"
+              style={{ color: "var(--dark-titanium)" }}
+            >
+              Top
             </span>
-            <span className="text-xs" style={{ color: 'var(--titanium)', opacity: 0.8 }}>
-              {notes.top.join(', ')}
-            </span>
-          </div>
-          <div className="flex items-start gap-2">
-            <span className="text-xs uppercase tracking-wider min-w-[60px]" style={{ color: 'var(--titanium)', opacity: 0.5 }}>
-              Сердце:
-            </span>
-            <span className="text-xs" style={{ color: 'var(--titanium)', opacity: 0.8 }}>
-              {notes.middle.join(', ')}
+            <span
+              className="text-xs leading-relaxed"
+              style={{ color: "var(--natural-titanium)", opacity: 0.75 }}
+            >
+              {notes.top.join(' • ')}
             </span>
           </div>
-          <div className="flex items-start gap-2">
-            <span className="text-xs uppercase tracking-wider min-w-[60px]" style={{ color: 'var(--titanium)', opacity: 0.5 }}>
-              База:
+          <div className="flex items-start gap-3">
+            <span
+              className="text-[10px] uppercase tracking-[0.15em] font-medium min-w-[55px] pt-0.5"
+              style={{ color: "var(--dark-titanium)" }}
+            >
+              Heart
             </span>
-            <span className="text-xs" style={{ color: 'var(--titanium)', opacity: 0.8 }}>
-              {notes.base.join(', ')}
+            <span
+              className="text-xs leading-relaxed"
+              style={{ color: "var(--natural-titanium)", opacity: 0.75 }}
+            >
+              {notes.middle.join(' • ')}
+            </span>
+          </div>
+          <div className="flex items-start gap-3">
+            <span
+              className="text-[10px] uppercase tracking-[0.15em] font-medium min-w-[55px] pt-0.5"
+              style={{ color: "var(--dark-titanium)" }}
+            >
+              Base
+            </span>
+            <span
+              className="text-xs leading-relaxed"
+              style={{ color: "var(--natural-titanium)", opacity: 0.75 }}
+            >
+              {notes.base.join(' • ')}
             </span>
           </div>
         </div>
       </div>
 
-      {/* Glow Effect */}
-      <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none">
-        <div className="absolute inset-0 bg-gradient-to-tr from-white/[0.05] to-transparent" />
-        <div className="absolute inset-0 shadow-[inset_0_0_40px_rgba(197,197,199,0.1)]" />
-      </div>
+      {/* Subtle Chrome Reflection */}
+      <div
+        className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none"
+        style={{
+          background: "linear-gradient(135deg, rgba(184, 184, 186, 0.03) 0%, transparent 60%)"
+        }}
+      />
     </motion.div>
   );
 }
