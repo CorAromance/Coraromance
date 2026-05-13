@@ -81,7 +81,7 @@ export default function App() {
         <Navigation />
 
         {/* Hero Section - Ultra Premium */}
-        <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+        <section className="relative min-h-screen w-full flex items-center justify-center overflow-hidden py-24 md:py-0">
           {/* Background - Dark Studio */}
           <div className="absolute inset-0">
             <div className="absolute inset-0" style={{ background: "#0a0a0b" }} />
@@ -116,7 +116,7 @@ export default function App() {
           </div>
 
           {/* Hero Content */}
-          <div className="relative z-10 text-center px-6 max-w-6xl mx-auto">
+          <div className="relative z-10 text-center px-4 sm:px-6 max-w-6xl mx-auto w-full">
             <motion.div
               initial={{ opacity: 0, y: 40 }}
               animate={{ opacity: 1, y: 0 }}
@@ -124,7 +124,7 @@ export default function App() {
             >
               {/* Main Heading */}
               <motion.h1
-                className="text-7xl md:text-8xl lg:text-9xl mb-8 tracking-tight"
+                className="text-4xl sm:text-5xl md:text-7xl lg:text-9xl mb-6 md:mb-8 tracking-tight leading-none px-2"
                 style={{
                   fontFamily: "var(--font-serif)",
                   color: "var(--titanium-light)",
@@ -148,7 +148,7 @@ export default function App() {
 
               {/* Subtitle */}
               <motion.p
-                className="text-xl md:text-2xl mb-12 tracking-wide uppercase"
+                className="text-sm sm:text-base md:text-2xl mb-8 md:mb-12 tracking-[0.25em] uppercase px-4"
                 style={{
                   color: "var(--natural-titanium)",
                   fontWeight: 400,
@@ -163,7 +163,7 @@ export default function App() {
 
               {/* Description */}
               <motion.p
-                className="text-lg md:text-xl mb-16 max-w-3xl mx-auto leading-relaxed"
+                className="text-sm sm:text-base md:text-xl mb-10 md:mb-16 max-w-3xl mx-auto leading-relaxed px-4"
                 style={{ color: "var(--natural-titanium)", opacity: 0.75 }}
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 0.75, y: 0 }}
@@ -175,7 +175,7 @@ export default function App() {
 
               {/* CTA Buttons */}
               <motion.div
-                className="flex flex-col sm:flex-row items-center justify-center gap-4"
+                className="flex flex-col sm:flex-row items-center justify-center gap-4 w-full px-4"
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 1.4, duration: 0.8 }}
