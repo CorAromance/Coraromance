@@ -505,7 +505,7 @@ export default function App() {
                     Локация
                   </p>
                   <p style={{ color: "var(--natural-titanium)", opacity: 0.75 }}>
-                    Ростов-на-Дону
+                    г. Ростов-на-Дону, ул. Маршала Жукова, д.18
                   </p>
                 </motion.div>
 
@@ -557,7 +557,7 @@ export default function App() {
                     Email
                   </p>
                   <p style={{ color: "var(--natural-titanium)", opacity: 0.75 }}>
-                    info@coraromance.ru
+                    coraromance@ya.ru
                   </p>
                 </motion.div>
               </div>
@@ -603,7 +603,7 @@ export default function App() {
                   className="text-sm tracking-[0.3em] uppercase"
                   style={{ color: "var(--dark-titanium)" }}
                 >
-                  Искусство аромата
+                  Искусство любви к парфюмерии
                 </p>
               </div>
 
