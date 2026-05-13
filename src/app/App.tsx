@@ -72,7 +72,7 @@ export default function App() {
       </AnimatePresence>
 
       <div
-        className="min-h-screen"
+        className="min-h-screen h-auto"
         style={{
           background: "linear-gradient(180deg, #0a0a0b 0%, #14141 50%, #0a0a0b 100%)"
         }}
