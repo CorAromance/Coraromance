@@ -1,3 +1,22 @@
+import creedaventus from "../assets/parfumes/creedaventus.jpeg";
+import hommeintense from "../assets/parfumes/hommeintense.jpg";
+import bleudechanel from "../assets/parfumes/bleudechanel.jpg";
+import ombreleather from "../assets/parfumes/ombreleather.jpg";
+import naxos from "../assets/parfumes/naxos.png";
+import sideeffect from "../assets/parfumes/sideeffect.jpg";
+import layton from "../assets/parfumes/layton.jpg";
+import rouge540 from "../assets/parfumes/rouge540.jpg";
+import delinaexclusif from "../assets/parfumes/delinaexclusif.jpg";
+import cocomademoiselle from "../assets/parfumes/cocomademoiselle.jpg";
+import libre from "../assets/parfumes/libre.jpg";
+import blanche from "../assets/parfumes/blanche.jpg";
+import lovedontbeshy from "../assets/parfumes/lovedontbeshy.jpg";
+import atomicrose from "../assets/parfumes/atomicrose.jpg";
+import angelsshare from "../assets/parfumes/angelsshare.jpg";
+import erbapura from "../assets/parfumes/erbapura.jpg";
+import oudforgreatness from "../assets/parfumes/oudforgreatness.jpg";
+import gypsywater from "../assets/parfumes/gypsywater.jpeg";
+
 export interface Perfume {
   brand: string;
   name: string;
@@ -18,7 +37,7 @@ export const perfumes: Perfume[] = [
     brand: "Creed",
     name: "Aventus",
     description: "Легендарный фруктово-древесный аромат. Воплощение силы, успеха и уверенности.",
-    image: "https://images.unsplash.com/photo-1698867928110-2408e8e2f44a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=800",
+    image: creedaventus,
     price: "₽32 000",
     category: "men",
     notes: {
@@ -31,7 +50,7 @@ export const perfumes: Perfume[] = [
     brand: "Dior",
     name: "Homme Intense",
     description: "Утончённая древесно-цветочная композиция. Элегантность и мужественность в едином аккорде.",
-    image: "https://images.unsplash.com/photo-1698877779289-d546e6376001?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=800",
+    image: hommeintense,
     price: "₽9 500",
     category: "men",
     notes: {
@@ -44,7 +63,7 @@ export const perfumes: Perfume[] = [
     brand: "Chanel",
     name: "Bleu de Chanel",
     description: "Древесно-ароматический парфюм нового поколения. Свобода выбора и решительность.",
-    image: "https://images.unsplash.com/photo-1721190171118-c5c0921ea6c0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=800",
+    image: bleudechanel,
     price: "₽10 800",
     category: "men",
     notes: {
@@ -57,7 +76,7 @@ export const perfumes: Perfume[] = [
     brand: "Tom Ford",
     name: "Ombre Leather",
     description: "Чувственный кожаный аромат. Воплощение пустыни на закате и безграничной свободы.",
-    image: "https://images.unsplash.com/photo-1775210727378-7b0e9a50b660?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=800",
+    image: ombreleather,
     price: "₽27 500",
     category: "men",
     notes: {
@@ -70,7 +89,7 @@ export const perfumes: Perfume[] = [
     brand: "Xerjoff",
     name: "Naxos",
     description: "Восточно-древесная композиция с медовыми и табачными нотами. Тёплая роскошь.",
-    image: "https://images.unsplash.com/photo-1769038933775-305885b212c1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=800",
+    image: naxos,
     price: "₽37 000",
     category: "men",
     notes: {
@@ -83,7 +102,7 @@ export const perfumes: Perfume[] = [
     brand: "Initio",
     name: "Side Effect",
     description: "Интенсивная табачно-ванильная композиция. Опьяняющий и чувственный.",
-    image: "https://images.unsplash.com/photo-1770301410072-f6ef6dad65b2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=800",
+    image: sideeffect,
     price: "₽32 500",
     category: "men",
     notes: {
@@ -96,7 +115,7 @@ export const perfumes: Perfume[] = [
     brand: "Parfums de Marly",
     name: "Layton",
     description: "Восточно-цветочная композиция с яблоком и ванилью. Аристократическая роскошь.",
-    image: "https://images.unsplash.com/photo-1698867928110-2408e8e2f44a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=800",
+    image: layton,
     price: "₽28 000",
     category: "men",
     notes: {
@@ -111,7 +130,7 @@ export const perfumes: Perfume[] = [
     brand: "Maison Francis Kurkdjian",
     name: "Baccarat Rouge 540",
     description: "Легендарный янтарно-цветочный аромат. Невесомый, сияющий и неповторимый.",
-    image: "https://images.unsplash.com/photo-1774280347934-9c74dff6ab2e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=800",
+    image: rouge540,
     price: "₽25 500",
     category: "women",
     notes: {
@@ -124,7 +143,7 @@ export const perfumes: Perfume[] = [
     brand: "Parfums de Marly",
     name: "Delina Exclusif",
     description: "Роскошная цветочно-фруктовая композиция. Элегантность и чувственность.",
-    image: "https://images.unsplash.com/photo-1621962728420-a7328f6ea8ef?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=800",
+    image: delinaexclusif,
     price: "₽33 000",
     category: "women",
     notes: {
@@ -137,7 +156,7 @@ export const perfumes: Perfume[] = [
     brand: "Chanel",
     name: "Coco Mademoiselle",
     description: "Современный восточный аромат. Свежий, изысканный и дерзкий.",
-    image: "https://images.unsplash.com/photo-1773527142304-58116364b8a1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=800",
+    image: cocomademoiselle,
     price: "₽11 500",
     category: "women",
     notes: {
@@ -150,7 +169,7 @@ export const perfumes: Perfume[] = [
     brand: "Yves Saint Laurent",
     name: "Libre",
     description: "Цветочный фужерный аромат. Свобода, сила и женственность.",
-    image: "https://images.unsplash.com/photo-1759793500112-c588839cfc6e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=800",
+    image: libre,
     price: "₽9 800",
     category: "women",
     notes: {
@@ -163,7 +182,7 @@ export const perfumes: Perfume[] = [
     brand: "Byredo",
     name: "Blanche",
     description: "Минималистичный белоцветочный аромат. Чистота и свежесть.",
-    image: "https://images.unsplash.com/photo-1774280347934-9c74dff6ab2e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=800",
+    image: blanche,
     price: "₽19 500",
     category: "women",
     notes: {
@@ -176,7 +195,7 @@ export const perfumes: Perfume[] = [
     brand: "Kilian",
     name: "Love, Don't Be Shy",
     description: "Сладкая цветочная композиция с маршмэллоу. Незабываемый и притягательный.",
-    image: "https://images.unsplash.com/photo-1769038933775-305885b212c1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=800",
+    image: lovedontbeshy,
     price: "₽27 800",
     category: "women",
     notes: {
@@ -189,7 +208,7 @@ export const perfumes: Perfume[] = [
     brand: "Initio",
     name: "Atomic Rose",
     description: "Мощный розовый аромат с животными нотами. Провокационный и роскошный.",
-    image: "https://images.unsplash.com/photo-1621962728420-a7328f6ea8ef?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=800",
+    image: atomicrose,
     price: "₽31 000",
     category: "women",
     notes: {
@@ -204,7 +223,7 @@ export const perfumes: Perfume[] = [
     brand: "Kilian",
     name: "Angels' Share",
     description: "Гурманский аромат с коньяком и ванилью. Роскошь и соблазн.",
-    image: "https://images.unsplash.com/photo-1770301410072-f6ef6dad65b2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=800",
+    image: angelsshare,
     price: "₽28 500",
     category: "unisex",
     notes: {
@@ -217,7 +236,7 @@ export const perfumes: Perfume[] = [
     brand: "Xerjoff",
     name: "Erba Pura",
     description: "Фруктово-цитрусовый шедевр. Средиземноморская свежесть и роскошь.",
-    image: "https://images.unsplash.com/photo-1775210727378-7b0e9a50b660?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=800",
+    image: erbapura,
     price: "₽36 000",
     category: "unisex",
     notes: {
@@ -230,7 +249,7 @@ export const perfumes: Perfume[] = [
     brand: "Initio",
     name: "Oud for Greatness",
     description: "Мощный восточный аромат с удом. Величие и харизма.",
-    image: "https://images.unsplash.com/photo-1769038933775-305885b212c1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=800",
+    image: oudforgreatness,
     price: "₽34 000",
     category: "unisex",
     notes: {
@@ -243,26 +262,13 @@ export const perfumes: Perfume[] = [
     brand: "Byredo",
     name: "Gypsy Water",
     description: "Свежий древесный аромат. Романтика цыганской свободы.",
-    image: "https://images.unsplash.com/photo-1773527142304-58116364b8a1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=800",
+    image: gypsywater,
     price: "₽19 800",
     category: "unisex",
     notes: {
       top: ["Бергамот", "Лимон", "Можжевельник", "Перец"],
       middle: ["Сосна", "Ладан"],
       base: ["Ваниль", "Сандал", "Амбер"]
-    }
-  },
-  {
-    brand: "Nishane",
-    name: "Ani",
-    description: "Восточно-ванильная композиция. Тёплая, чувственная и обволакивающая.",
-    image: "https://images.unsplash.com/photo-1774280347934-9c74dff6ab2e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=800",
-    price: "₽24 000",
-    category: "unisex",
-    notes: {
-      top: ["Бергамот", "Зелёные ноты", "Розовый перец", "Чёрная смородина"],
-      middle: ["Турецкая роза", "Кардамон"],
-      base: ["Ваниль", "Бензоин", "Сандал", "Кедр", "Пачули", "Мускус"]
     }
   }
 ];
