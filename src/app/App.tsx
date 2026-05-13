@@ -7,6 +7,25 @@ import { Navigation } from "./components/Navigation";
 import { TelegramCTA } from "./components/TelegramCTA";
 import { perfumes } from "../data/perfumes";
 
+import creedaventus from "../assets/parfumes/creedaventus.jpeg";
+import hommeintense from "../assets/perfumes/hommeintense.jpg";
+import bleudechanel from "../assets/perfumes/bleudechanel.jpg";
+import omberleather from "../assets/perfumes/omberleather.jpg";
+import naxos from "../assets/perfumes/naxos.png";
+import sideeffect from "../assets/perfumes/sideeffect.jpg";
+import layton from "../assets/perfumes/layton.jpg";
+import rouge540 from "../assets/perfumes/rouge540.jpg";
+import delinaexclusif from "../assets/perfumes/delinaexclusif.jpg";
+import cocomademoiselle from "../assets/perfumes/cocomademoiselle.jpg";
+import libre from "../assets/perfumes/libre.jpg";
+import blanche from "../assets/perfumes/blanche.jpg";
+import lovedontbeshy from "../assets/perfumes/lovedontbeshy.jpg";
+import atomicrose from "../assets/perfumes/atomicrose.jpg";
+import angelsshare from "../assets/perfumes/angelsshare.jpg";
+import erbapura from "../assets/perfumes/erbapura.jpg";
+import oudforgreatness from "../assets/perfumes/oudforgreatness.jpg";
+import gypsywater from "../assets/perfumes/gypsywater.jpeg";
+
 const testimonials = [
   {
     name: "Александра В.",
