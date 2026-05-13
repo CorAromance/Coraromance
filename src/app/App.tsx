@@ -158,7 +158,7 @@ export default function App() {
                 animate={{ opacity: 0.9 }}
                 transition={{ delay: 1, duration: 1 }}
               >
-                Искусство аромата
+                ИСКУССТВО ЛЮБВИ К ПАРФЮМЕРИИ
               </motion.p>
 
               {/* Description */}
