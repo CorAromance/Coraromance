@@ -38,7 +38,7 @@ export const perfumes: Perfume[] = [
     name: "Aventus",
     description: "Легендарный фруктово-древесный аромат. Воплощение силы, успеха и уверенности.",
     image: creedaventus,
-    price: "₽32 000",
+    price: "₽39 990",
     category: "men",
     notes: {
       top: ["Ананас", "Чёрная смородина", "Яблоко", "Бергамот"],
@@ -51,7 +51,7 @@ export const perfumes: Perfume[] = [
     name: "Homme Intense",
     description: "Утончённая древесно-цветочная композиция. Элегантность и мужественность в едином аккорде.",
     image: hommeintense,
-    price: "₽9 500",
+    price: "₽8 790",
     category: "men",
     notes: {
       top: ["Лаванда", "Бергамот", "Шалфей"],
@@ -64,7 +64,7 @@ export const perfumes: Perfume[] = [
     name: "Bleu de Chanel",
     description: "Древесно-ароматический парфюм нового поколения. Свобода выбора и решительность.",
     image: bleudechanel,
-    price: "₽10 800",
+    price: "₽10 790",
     category: "men",
     notes: {
       top: ["Лимон", "Мята", "Розовый перец", "Грейпфрут"],
@@ -77,7 +77,7 @@ export const perfumes: Perfume[] = [
     name: "Ombre Leather",
     description: "Чувственный кожаный аромат. Воплощение пустыни на закате и безграничной свободы.",
     image: ombreleather,
-    price: "₽27 500",
+    price: "₽18 790",
     category: "men",
     notes: {
       top: ["Кардамон"],
@@ -90,7 +90,7 @@ export const perfumes: Perfume[] = [
     name: "Naxos",
     description: "Восточно-древесная композиция с медовыми и табачными нотами. Тёплая роскошь.",
     image: naxos,
-    price: "₽37 000",
+    price: "₽15 890",
     category: "men",
     notes: {
       top: ["Лаванда", "Бергамот", "Лимон"],
@@ -103,7 +103,7 @@ export const perfumes: Perfume[] = [
     name: "Side Effect",
     description: "Интенсивная табачно-ванильная композиция. Опьяняющий и чувственный.",
     image: sideeffect,
-    price: "₽32 500",
+    price: "₽31 390",
     category: "men",
     notes: {
       top: ["Ром", "Корица"],
@@ -116,7 +116,7 @@ export const perfumes: Perfume[] = [
     name: "Layton",
     description: "Восточно-цветочная композиция с яблоком и ванилью. Аристократическая роскошь.",
     image: layton,
-    price: "₽28 000",
+    price: "₽23 690",
     category: "men",
     notes: {
       top: ["Яблоко", "Лаванда", "Мандарин", "Бергамот"],
@@ -131,7 +131,7 @@ export const perfumes: Perfume[] = [
     name: "Baccarat Rouge 540",
     description: "Легендарный янтарно-цветочный аромат. Невесомый, сияющий и неповторимый.",
     image: rouge540,
-    price: "₽25 500",
+    price: "₽24 390",
     category: "women",
     notes: {
       top: ["Шафран", "Жасмин"],
@@ -144,7 +144,7 @@ export const perfumes: Perfume[] = [
     name: "Delina Exclusif",
     description: "Роскошная цветочно-фруктовая композиция. Элегантность и чувственность.",
     image: delinaexclusif,
-    price: "₽33 000",
+    price: "₽21 790",
     category: "women",
     notes: {
       top: ["Личи", "Мускатный орех", "Ревень"],
@@ -157,7 +157,7 @@ export const perfumes: Perfume[] = [
     name: "Coco Mademoiselle",
     description: "Современный восточный аромат. Свежий, изысканный и дерзкий.",
     image: cocomademoiselle,
-    price: "₽11 500",
+    price: "₽14 690",
     category: "women",
     notes: {
       top: ["Апельсин", "Мандарин", "Бергамот"],
@@ -170,7 +170,7 @@ export const perfumes: Perfume[] = [
     name: "Libre",
     description: "Цветочный фужерный аромат. Свобода, сила и женственность.",
     image: libre,
-    price: "₽9 800",
+    price: "₽10 290",
     category: "women",
     notes: {
       top: ["Мандарин", "Лаванда", "Чёрная смородина"],
@@ -183,7 +183,7 @@ export const perfumes: Perfume[] = [
     name: "Blanche",
     description: "Минималистичный белоцветочный аромат. Чистота и свежесть.",
     image: blanche,
-    price: "₽19 500",
+    price: "₽22 790",
     category: "women",
     notes: {
       top: ["Альдегиды", "Розовый перец", "Белая роза"],
@@ -196,7 +196,7 @@ export const perfumes: Perfume[] = [
     name: "Love, Don't Be Shy",
     description: "Сладкая цветочная композиция с маршмэллоу. Незабываемый и притягательный.",
     image: lovedontbeshy,
-    price: "₽27 800",
+    price: "₽25 890",
     category: "women",
     notes: {
       top: ["Нероли"],
@@ -209,7 +209,7 @@ export const perfumes: Perfume[] = [
     name: "Atomic Rose",
     description: "Мощный розовый аромат с животными нотами. Провокационный и роскошный.",
     image: atomicrose,
-    price: "₽31 000",
+    price: "₽31 290",
     category: "women",
     notes: {
       top: ["Розовый перец"],
@@ -224,7 +224,7 @@ export const perfumes: Perfume[] = [
     name: "Angels' Share",
     description: "Гурманский аромат с коньяком и ванилью. Роскошь и соблазн.",
     image: angelsshare,
-    price: "₽28 500",
+    price: "₽23 890",
     category: "unisex",
     notes: {
       top: ["Коньяк", "Дубовая эссенция", "Корица"],
@@ -237,7 +237,7 @@ export const perfumes: Perfume[] = [
     name: "Erba Pura",
     description: "Фруктово-цитрусовый шедевр. Средиземноморская свежесть и роскошь.",
     image: erbapura,
-    price: "₽36 000",
+    price: "₽17 290",
     category: "unisex",
     notes: {
       top: ["Сицилийский лимон", "Калабрийский бергамот", "Апельсин"],
@@ -250,7 +250,7 @@ export const perfumes: Perfume[] = [
     name: "Oud for Greatness",
     description: "Мощный восточный аромат с удом. Величие и харизма.",
     image: oudforgreatness,
-    price: "₽34 000",
+    price: "₽34 790",
     category: "unisex",
     notes: {
       top: ["Шафран", "Мускус"],
@@ -263,7 +263,7 @@ export const perfumes: Perfume[] = [
     name: "Gypsy Water",
     description: "Свежий древесный аромат. Романтика цыганской свободы.",
     image: gypsywater,
-    price: "₽19 800",
+    price: "₽21 590",
     category: "unisex",
     notes: {
       top: ["Бергамот", "Лимон", "Можжевельник", "Перец"],
