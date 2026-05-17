@@ -38,7 +38,7 @@ export const perfumes: Perfume[] = [
     name: "Aventus",
     description: "Легендарный фруктово-древесный аромат. Воплощение силы, успеха и уверенности.",
     image: creedaventus,
-    price: "₽39 990",
+    price: "₽40 690",
     category: "men",
     notes: {
       top: ["Ананас", "Чёрная смородина", "Яблоко", "Бергамот"],
