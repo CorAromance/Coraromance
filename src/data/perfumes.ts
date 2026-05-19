@@ -32,7 +32,7 @@ export interface Perfume {
 }
 
 export const perfumes: Perfume[] = [
-  // Men's Fragrances
+  // Мужские ароматы
   {
     brand: "Creed",
     name: "Aventus",
@@ -125,7 +125,7 @@ export const perfumes: Perfume[] = [
     }
   },
 
-  // Women's Fragrances
+  // Женские ароматы
   {
     brand: "Maison Francis Kurkdjian",
     name: "Baccarat Rouge 540",
@@ -218,7 +218,7 @@ export const perfumes: Perfume[] = [
     }
   },
 
-  // Unisex Fragrances
+  // Унисекс парфюм
   {
     brand: "Kilian",
     name: "Angels' Share",
