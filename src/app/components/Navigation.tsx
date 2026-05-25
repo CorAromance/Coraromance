@@ -75,7 +75,7 @@ export function Navigation() {
                 О нас
               </button>
               <motion.a
-                href="https://t.me/coraromance"
+                href="https://t.me/cor_aromance"
                 target="_blank"
                 rel="noopener noreferrer"
                 whileHover={{ scale: 1.05 }}
