@@ -215,7 +215,7 @@ export default function App() {
                 </motion.button>
 
                 <motion.a
-                  href="https://t.me/coraromance"
+                  href="https://t.me/cor_aromance"
                   target="_blank"
                   rel="noopener noreferrer"
                   whileHover={{ scale: 1.05 }}
@@ -308,10 +308,10 @@ export default function App() {
                 className="text-lg mb-6"
                 style={{ color: "var(--natural-titanium)", opacity: 0.7 }}
               >
-                Не нашли нужный аромат? У нас более 500 позиций.
+                Не нашли нужный аромат? У нас более 300 позиций.
               </p>
               <motion.a
-                href="https://t.me/coraromance"
+                href="https://t.me/cor_aromance"
                 target="_blank"
                 rel="noopener noreferrer"
                 whileHover={{ scale: 1.05 }}
@@ -421,7 +421,7 @@ export default function App() {
                     }}
                   >
                     <p style={{ color: "var(--natural-titanium)", opacity: 0.85 }}>
-                      Персональные консультации в Telegram • Тестеры перед покупкой • Доставка по России
+                      Персональные консультации в Telegram • Доставка по всей России и зарубеж
                     </p>
                   </div>
                 </motion.div>
