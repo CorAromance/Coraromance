@@ -4,7 +4,7 @@ import { MessageCircle } from "lucide-react";
 export function TelegramCTA() {
   return (
     <motion.a
-      href="https://t.me/coraromance"
+      href="https://t.me/cor_aromance"
       target="_blank"
       rel="noopener noreferrer"
       initial={{ opacity: 0, y: 100 }}
