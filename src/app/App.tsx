@@ -524,7 +524,7 @@ export default function App() {
                     Локация
                   </p>
                   <p style={{ color: "var(--natural-titanium)", opacity: 0.75 }}>
-                    г. Ростов-на-Дону, ул. Маршала Жукова, д.33/7
+                    г. Ростов-на-Дону, ул. Маршала Жукова, д. 33/7
                   </p>
                 </motion.div>
 
