@@ -637,7 +637,7 @@ export default function App() {
                   className="text-xs"
                   style={{ color: "var(--dark-titanium)", opacity: 0.5 }}
                 >
-                  © 2026 CorAromance
+                  © 2025 CorAromance
                 </p>
               </div>
             </div>
