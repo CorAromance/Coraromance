@@ -640,7 +640,6 @@ export default function App() {
                   © 2025 CorAromance
                 </p>
               </div>
-            </div>
 
         {/* Sticky Telegram CTA */}
         <TelegramCTA />
