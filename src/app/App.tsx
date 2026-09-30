@@ -642,20 +642,6 @@ export default function App() {
               </div>
             </div>
 
-            <div
-              className="mt-12 pt-6 border-t text-center"
-              style={{ borderColor: "rgba(184, 184, 186, 0.05)" }}
-            >
-              <p
-                className="text-xs"
-                style={{ color: "var(--dark-titanium)", opacity: 0.4 }}
-              >
-                Все товары 100% оригинальные и сертифицированные
-              </p>
-            </div>
-          </div>
-        </footer>
-
         {/* Sticky Telegram CTA */}
         <TelegramCTA />
       </div>
